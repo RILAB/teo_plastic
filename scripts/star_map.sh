@@ -5,7 +5,7 @@
 #SBATCH -e errors/error.%A.%a.txt
 #SBATCH -p bigmem
 #SBATCH --ntasks=8
-#SBATCH --array=1-10
+#SBATCH --array=1-12
 
 cd data/
 file=$( sed -n "$SLURM_ARRAY_TASK_ID"p $1 )
