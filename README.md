@@ -17,7 +17,10 @@ run star_genome.sh to generate genome data for STAR
 
 run star_map FILE where file is a list of .atrim (trimmed for adapters) fastq files.  outputs sam format and logfile.
 
+## gff3
 
+Download gff3 from Ensembl, then modify for HTseq thusly:
 
+perl -e 'open FILE, "<Zea_mays.AGPv3.21.gff3"; while(<FILE>){ if($_=~m/ID/ ){ $_=~s/ID/gene_id/; $_=~s/_E\d\d//; $_=~s/_T\d\d//; $_=~s/\.exon\d+//; $_=~s/_FGP/_FG/; } print $_; }' > new.gff3
 
 

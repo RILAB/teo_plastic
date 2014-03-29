@@ -7,7 +7,7 @@
 
 cd data/
 #DEMULTIPLEX BARCODES USING FASTX TOOLIT
-zcat $1 | /home/jri/src/fastx-toolkit/bin/fastx_barcode_splitter.pl --bcfile barcodes.txt --bol --mismatches $2 --suffix ".$2.txt"
+zcat $1 | /home/jri/src/fastx-toolkit/bin/fastx_barcode_splitter.pl --bcfile barcodes.txt --bol --mismatches $2 --prefix ./ --suffix ".$2.txt"
 
 #TRIM BARCODES
 for i in *.$2.txt; do 
