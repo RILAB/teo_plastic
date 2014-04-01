@@ -1,4 +1,5 @@
 library("edgeR")
+library("wesanderson")
 setwd("~/Desktop/")
 get files
 system('rsync farm:~/projects/teo_plastic/data/*.count ./')

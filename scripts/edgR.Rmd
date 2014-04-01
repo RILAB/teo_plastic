@@ -4,6 +4,8 @@ Teosinte Expression Models
 ## Set up
 ```{r}
 library("edgeR")
+library(ggplot2)
+library("wesanderson")
 setwd("~/Desktop/")
 system('rsync farm:~/projects/teo_plastic/results/*.count ./')
 files<-c("265_1A.count","265_2B.count","265_3C.count","265_1A_2.count","265_2B_2.count","265_4A.count","265_1B.count","265_3A.count","265_4B.count","265_2A.count","265_3B.count","265_4C.count","400_1A.count","400_2B.count","400_3C.count","400_1A_2.count","400_2B_2.count","400_4A.count","400_1B.count","400_3A.count","400_4C.count","400_2A.count","400_3B.count")
@@ -18,38 +20,76 @@ metadat$shortname=colnames(counts)
 metadat$co2=c(rep(265,12),rep(400,11))
 noint=rownames(counts) %in% c("no feature","ambiguous","too_low_aQual","not_aligned","alignment_not_unique")
 cpms<-cpm(counts)
+```
+
+Keep only genes with >= 3 hits and claculate normalization factors
+```{r}
 keep=rowSums(cpms>1) >= 3 & !noint
 new.counts<-counts[keep,]
-head(new.counts[,order(metadat$co2)],5)
+#head(new.counts[,order(metadat$co2)],5)
 d=DGEList(counts=new.counts,group=metadat$co2)
 d2=calcNormFactors(d)
 ```
 
+## Analysis
+Plot MDS of data
+```{r fig.width=5, fig.height=5}
+plotMDS(d2,pch=16,labels=metadat$shortname,cex=.75,col=c("green","blue")[factor(metadat$co2)])
+```
 
-plotMDS(d2,pch=16,labels=metadat$shortname,cex=.75,col=c("darkgreen","blue")[factor(metadat$co2)])
+ML analysis of neg. binomial
+```{r}
 d3=estimateCommonDisp(d2)
 d4=estimateTagwiseDisp(d3)
+```
+
+Plot mean, variance and CoV
+```{r fig.width=5, fig.height=5}
 plotMeanVar(d4,show.tagwise.vars=TRUE,NBline=TRUE)
 plotBCV(d4)
+```
+
+EdgeR analyses of expression diffs.
+```{r}
 de=exactTest(d4)
 tt=topTags(de,n=nrow(d4))            
-head(tt$table)
+#head(tt$table)
+#head(nc[rn,order(metadat$co2)],5)
+
+```
+
+Plot tag mean vs variance
+```{r fig.width=5, fig.height=5}
+#counts per million of d4
 nc=cpm(d4,normalized.lib.sizes=TRUE)
 rn=rownames(tt$table)
-head(nc[rn,order(metadat$co2)],5)
+#highlight stuff with log diff >2 or with FDR < 0.01
 deg=rn[tt$table$FDR<0.01]
-plotSmear(d4,de.tags=deg)
-write.csv(tt$table,file="toptags_edgeR.csv")
+plotSmear(d4,de.tags=deg,ylab="log fold counts")
+```
 
+```{r}
+write.csv(tt$table,file="toptags_edgeR.csv")
 tops<-scan(what="character")
 for(i in tops){ print(paste(i,min(tt$table[grep(i,rownames(tt$table)),]$FDR)))} 
 dif <- as.logical(abs(decideTestsDGE(de)))
-
 ```
 
-You can also embed plots, for example:
 
-```{r fig.width=7, fig.height=6}
-plot(cars)
+```{r}
+scatterhist = function(x, y, xlab="", ylab=""){
+  zones=matrix(c(2,0,1,3), ncol=2, byrow=TRUE)
+  layout(zones, widths=c(4/5,1/5), heights=c(1/10,9/10))
+  par(mar=c(3,3,1,1))
+  plot(x,y)
+  par(mar=c(0,3,1,1))
+  boxplot((x),main="",axes=F,horizontal=T,cex=0)
+  par(mar=c(3,0,1,1))
+  boxplot((y),main="",axes=F)
+  par(oma=c(3,3,0,0))
+##  mtext(xlab, side=1, line=1, outer=TRUE, adj=0, 
+#    at=.8 * (mean(x) - min(x))/(max(x)-min(x)))
+#  mtext(ylab, side=2, line=1, outer=TRUE, adj=0, 
+#    at=(.8 * (mean(y) - min(y))/(max(y) - min(y))))
+}
 ```
-
