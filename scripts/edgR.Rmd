@@ -6,14 +6,13 @@ Teosinte Expression Models
 library("edgeR")
 library(ggplot2)
 library("wesanderson")
-setwd("~/Desktop/")
-system('rsync farm:~/projects/teo_plastic/results/*.count ./')
 files<-c("265_1A.count","265_2B.count","265_3C.count","265_1A_2.count","265_2B_2.count","265_4A.count","265_1B.count","265_3A.count","265_4B.count","265_2A.count","265_3B.count","265_4C.count","400_1A.count","400_2B.count","400_3C.count","400_1A_2.count","400_2B_2.count","400_4A.count","400_1B.count","400_3A.count","400_4C.count","400_2A.count","400_3B.count")
 ```
 
 ## Load stuff into EdgeR
 Counts files are from HTseq analysis of STAR alignment to genome
 ```{r}
+setwd("/Users/jri/projects/dolores/teo_plastic/results/")
 counts=readDGE(files)$counts
 metadat<-data.frame(files)
 metadat$shortname=colnames(counts)
@@ -22,7 +21,7 @@ noint=rownames(counts) %in% c("no feature","ambiguous","too_low_aQual","not_alig
 cpms<-cpm(counts)
 ```
 
-Keep only genes with >= 3 hits and claculate normalization factors
+Keep only genes with >= 3 hits and calculate normalization factors
 ```{r}
 keep=rowSums(cpms>1) >= 3 & !noint
 new.counts<-counts[keep,]
@@ -55,7 +54,6 @@ de=exactTest(d4)
 tt=topTags(de,n=nrow(d4))            
 #head(tt$table)
 #head(nc[rn,order(metadat$co2)],5)
-
 ```
 
 Plot tag mean vs variance
@@ -65,31 +63,11 @@ nc=cpm(d4,normalized.lib.sizes=TRUE)
 rn=rownames(tt$table)
 #highlight stuff with log diff >2 or with FDR < 0.01
 deg=rn[tt$table$FDR<0.01]
+#deg=rn[tt$table$logFC>2]
 plotSmear(d4,de.tags=deg,ylab="log fold counts")
+abline(h=c(2,-2),col="grey",lwd=2,lty=2)
 ```
 
 ```{r}
 write.csv(tt$table,file="toptags_edgeR.csv")
-tops<-scan(what="character")
-for(i in tops){ print(paste(i,min(tt$table[grep(i,rownames(tt$table)),]$FDR)))} 
-dif <- as.logical(abs(decideTestsDGE(de)))
-```
-
-
-```{r}
-scatterhist = function(x, y, xlab="", ylab=""){
-  zones=matrix(c(2,0,1,3), ncol=2, byrow=TRUE)
-  layout(zones, widths=c(4/5,1/5), heights=c(1/10,9/10))
-  par(mar=c(3,3,1,1))
-  plot(x,y)
-  par(mar=c(0,3,1,1))
-  boxplot((x),main="",axes=F,horizontal=T,cex=0)
-  par(mar=c(3,0,1,1))
-  boxplot((y),main="",axes=F)
-  par(oma=c(3,3,0,0))
-##  mtext(xlab, side=1, line=1, outer=TRUE, adj=0, 
-#    at=.8 * (mean(x) - min(x))/(max(x)-min(x)))
-#  mtext(ylab, side=2, line=1, outer=TRUE, adj=0, 
-#    at=(.8 * (mean(y) - min(y))/(max(y) - min(y))))
-}
 ```
