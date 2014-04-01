@@ -3,3 +3,4 @@ errors/*
 outs/*
 *fastq
 *bam
+.Rproj.user
