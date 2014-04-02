@@ -13,3 +13,4 @@ samtools view -S -b $file | samtools sort -n - sorted.$prefix
 samtools view -o $prefix.sorted.sam sorted.$prefix.bam
 
 python -m HTSeq.scripts.count -s no -a 30 $prefix.sorted.sam new.gff3 > $prefix.count
+python -m HTSeq.scripts.count -s no $prefix.sorted.sam new.gff3 > results/$prefix.0.count
