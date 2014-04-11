@@ -17,7 +17,7 @@ counts=readDGE(files)$counts
 metadat<-data.frame(files)
 metadat$shortname=colnames(counts)
 metadat$co2=c(rep(265,12),rep(400,11))
-noint=rownames(counts) %in% c("no feature","ambiguous","too_low_aQual","not_aligned","alignment_not_unique")
+noint=rownames(counts) %in% c("__no_feature","__ambiguous","__too_low_aQual","__not_aligned","__alignment_not_unique")
 cpms<-cpm(counts)
 ```
 
@@ -66,6 +66,12 @@ deg=rn[tt$table$FDR<0.01]
 #deg=rn[tt$table$logFC>2]
 plotSmear(d4,de.tags=deg,ylab="log fold counts")
 abline(h=c(2,-2),col="grey",lwd=2,lty=2)
+
+#set alpha and color
+#al=rep(0,length(tt$table$FDR)); al[which(tt$table$FDR>0.01)]=0.5
+#cl=rep(1,length(tt$table$FDR)); cl[which(tt$table$FDR>0.01)]=0.2
+#plot(tt$table$logFC~tt$table$logCPM,pch=16,cex=0.5,col=rgb(cl,.2,.2,al),ylab="log2 difference in expression 400-265",xlab="average log counts per million");
+#points(tt$table$logFC~tt$table$logCPM,pch=16,cex=0.5,col=rgb(cl,0,0,1-al))
 ```
 
 ```{r}
