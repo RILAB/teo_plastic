@@ -5,7 +5,6 @@ Teosinte Expression Models
 ```{r}
 library("edgeR")
 library(ggplot2)
-library("wesanderson")
 files<-c("265_1A.count","265_2B.count","265_3C.count","265_1A_2.count","265_2B_2.count","265_4A.count","265_1B.count","265_3A.count","265_4B.count","265_2A.count","265_3B.count","265_4C.count","400_1A.count","400_2B.count","400_3C.count","400_1A_2.count","400_2B_2.count","400_4A.count","400_1B.count","400_3A.count","400_4C.count","400_2A.count","400_3B.count")
 ```
 
