@@ -1,0 +1,140 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage[space]{grffile}
+\usepackage{latexsym}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{url}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyref}
+\usepackage{hyperref}
+\hypersetup{colorlinks=false,pdfborder={0 0 0},}
+
+
+
+\begin{document}
+
+\title{Double click to edit the title}
+
+\author{Jeffrey Ross-Ibarra\\ Affiliation not available  \and Anne Lorant\\ Affiliation not available \and Dolores Piperno\\ Affiliation not available}
+
+\date{\today}
+
+\bibliographystyle{plain}
+
+\maketitle 
+
+
+
+
+\section{Introduction}
+Assimilation, Cryptic variability \cite{Lauter2002}, Dolores's previous paper \cite{Piperno_Holst_Winter_McMillan_2014}. 
+
+
+
+
+
+\section{Methods}
+\subsection{Growth Chamber Experiment} %Dolores
+
+
+
+\subsection{RNA sequencing} %Anne
+For the RNAseq, the total RNA was isolated from the leaf tissue of the plants with
+RNeasy mini Kit (Qiagen) following the manufacturer{'}s protocol. Under 400ppm and 265ppm of CO2, respectively 12 and 11 biological replicates were included.  RNA quality and concentration was verified using a Bioanalyzer (Agilent RNA Nano). Sequencing library preparation was performed as previously describe \citep{zhong2011high}. 
+Briefly, the mRNA was extracted with Dynabeads oligo(dt)25 (Ambion). After chemical shearing with divalent cations, the First strand synthesis was performed with Random Hexamers Primers (Invitrogen) and SuperScript III (Invitrogen). The second strand cDNA was synthetized with DNApol1 (Thermo Scientific) and RNaseH (New England Biolabs).  
+The cDNA fragments were prepared for Illumina sequencing. First, the cDNA fragments were repaired with the End-Repair enzyme mix (New England Biolab). An deoxyadenosine triphosphate was added at each 3{'} ends with the Klenow fragment (New England Biolab). Illumina Trueseq adapters (Affymetrix) were added with the Quick ligase kit (New England Biolab). Between each enzymatic step the cDNA was washed with AMpure beads (Beckman Coulter). Finally the The 23 samples were multiplexed and sequenced in one lane of Hiseq 2500 (UCDavis genome center sequencing facility) for 50 bases single-end reads with an insert size of approximately 300 bases. After demultiplexing, 3.8-8.8 million reads were generated for each sample (Table \ref{tab:readmoms}).
+
+\begin{table}[ht]
+\label{tab:readmoms}
+\begin{tabular}{l c c} 
+Sample & Reads & Maize-like mom \\ \hline 
+265\_4B.1.txt & 3814875 & \\
+400\_1A.1.txt & 4070011 & X \\ 
+265\_3C.1.txt & 4139946 & X \\
+265\_3A.1.txt & 4399187 & \\
+265\_4C.1.txt & 4746629 & X \\
+400\_3C.1.txt & 5029499 & X \\
+265\_1B.1.txt & 5031069 & \\
+265\_2B.1.txt & 5063618 & X \\
+400\_3B.1.txt & 5433424 & \\
+265\_3B.1.txt & 5564170 & \\
+400\_2B.1.txt & 5812095 & X \\
+400\_4A.1.txt & 5857687 & \\
+400\_1A\_2.1.txt & 5989185 & \\
+265\_2B\_2.1.txt & 6467938 & \\
+265\_2A.1.txt & 6732943 & \\
+265\_4A.1.txt & 7427625 & \\
+400\_2B\_2.1.txt & 7455893 & \\
+400\_1B.1.txt & 7570271 & \\
+265\_1A\_2.1.txt & 7648528 & \\
+400\_2A.1.txt & 7882249 & \\
+400\_3A.1.txt & 8630267 & \\
+265\_1A.1.txt & 8643790 & X \\
+400\_4C.1.tx & 8836575 & X \\  
+\end{tabular} 
+\caption{Reads}
+\end{table}
+
+\subsection{Data Analysis} %JRI
+
+Low qaulity (base quality <33) bases were trimmed using fastx toolkit v. 0.0.13 (\url(http://hannonlab.cshl.edu/fastx\_toolkit/)), and adapters were subsequently removed using scythe (\url(https://github.com/vsbuffalo/scythe)). Trimmed reads were mapped to the AGPv3.21 of the maize genome using STAR version 2.3.0 \cite{Dobin2013} with default parameters. Read counting was performed with HTseq \cite{Anders2014} using a modified version of the ENSEMBL Zea\_mays.AGPv3.21.gff3 annotation file . Only reads with mapping quality 30 or higher were included in subsequent analyses.
+
+% do we want to check if it makes a difference using lower mapping qualities?
+
+Expression analysis was performed using the EdgeR package \cite(Robinson2013).
+
+%more details needed here on EdgeR analysis once more concrete
+
+
+
+
+
+\section{Results}
+\subsection{General Expression Results}
+\ref{fig:FIGURE_ID}
+\subsection{Assimilation}
+
+Genes for which assimilation is important should show:
+\begin{itemize}
+\item Differential expression (DE) between 400 and 265 (this study)
+\item DE between maize and teosinte \cite(Swanson-Wagner2012, Hufford2012) (also cite Lemmon)
+\item Evidence of selection during domestication \cite(Hufford2012)
+\item Canalization (lack of plastic response) in maize (Dolores's test this summer)
+\end{itemize}
+
+\subsection{Cryptic variation}
+Genes for which cryptic variation is important should show:
+\begin{itemize}
+\item Decreased coefficient of variation (CoV) among teosinte populations/lines \cite(Swanson-Wagner2012, Hufford2012)
+\item Increased CoV of expression in new conditions (this study)
+\item Lower CoV in maize than in teosinte in new conditions (Dolores's test this summer)
+\end{itemize}
+
+We want to know:
+\begin{itemize}
+\item Which genes are in the above category? Any interesting biology there?
+\item GO term analysis % AL
+\item What proportion of all genes showing DE between maize and teosinte and selection during domestication? Can this tell us something about relative importance?
+\end{itemize}
+
+We whould also compare:
+\begin{itemize}
+\item To lists of stress response genes.
+\end{itemize}
+
+\section{Discussion}
+
+
+Points we will have to discuss: %these have all been brought up by folks I have talked to
+\begin{itemize}
+\item Adaptation: teosinte has adapted in the intervening 10K years. What we see may not be reflective.
+\item Stress: Does this say anything about climate, or only stress-response genes?
+\item Timing: How does plasticity work if climate change is slow relative to population genetic processes?
+\end{itemize}
+
+
+\bibliography{bibliography/converted_to_latex.bib}
+
+\end{document}
+
