@@ -60,8 +60,29 @@ nc=cpm(d4,normalized.lib.sizes=TRUE)
 rn=rownames(tt$table)
 #highlight stuff with log diff >2 or with FDR < 0.01
 deg=rn[tt$table$FDR<0.01]
+colt=numeric(length=nrow(tt$table))
+colt[tt$table$FDR<0.01]=aaltab_color[2]
+colt[tt$table$FDR>=0.01]=altab_color[5]
+
 #deg=rn[tt$table$logFC>2]
-plotSmear(d4,de.tags=deg,ylab="log fold counts",main="maize")
+#plotSmear(d4,de.tags=deg,ylab="log fold counts")
+
+add.alpha <- function(col, alpha=1){
++     if(missing(col))
++         stop("Please provide a vector of colours.")
++     apply(sapply(col, col2rgb)/255, 2, 
++           function(x) 
++               rgb(x[1], x[2], x[3], alpha=alpha))  
++ }
+altab_color=add.alpha(tab_color,alpha=0.25)
+aaltab_color=add.alpha(tab_color,alpha=0.5)
+
+
+plotSmear(d4,ylab="log fold counts",cex=1,col=colt)
+plot(tt$table$logFC~tt$table$logCPM,col=colt,pch=16,ylab="Log Difference in Expression (Ambient-Subambient)",xlab="Total Expression Level (log Counts Per Million)",yaxt="n",cex.lab=1.5);
+axis(side=2,at=c(-6,-4,-2,0,2,4,6,8))
+
+points(tt$table$logFC[tt$table$FDR<0.01]~tt$table$logCPM[tt$table$FDR<0.01],col=altab_color[2],pch=16)
 abline(h=c(2,-2),col="grey",lwd=2,lty=2)
 ```
 
