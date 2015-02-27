@@ -1,0 +1,258 @@
+Summary: Possible Interesting Genes
+Flower Structure, Flowering, and Flowering timing
+Row 430 (-2.08), floral homeotic protein (HUA1) (AGAMOUS pathway) in Arabidopsis.  Zag 1 is the maize homolog of this protein and it is similar to maize Zag 2.  Zag 1 and Zag 2 are domestication genes. Zag 1 is thought to have been selected possibly for its effects on seed non-shattering (Weber et al. 2008). It is a MADS-box gene, a large gene family. They are key regulators of plant inflorescence and flower development (e.g., the determination of floral meristem and organ identity as in AGAMOUS) and a number were maize domestication and improvement genes. 
+Maize Zag 1 article: http://www.plantcell.org/content/5/7/729.long. 
+Row 1466 (-2.3) In maize this is ZMM4 MADS-box protein. MADS-box family gene with MIKCc type-box in rice. Important roles in floral development.  ZMM4 has been studied in maize and may play roles in both floral induction and inflorescence development.  From article on ZMM4 in maize, link below:  “Expression analysis in late flowering mutants positioned all four genes downstream of the floral activators indeterminate1 (id1) and delayed flowering1 (dlf1). Overexpression of ZMM4 leads to early flowering in transgenic maize and suppresses the late flowering phenotype of both the id1 and dlf1 mutations.” See Row 1910 below.
+http://www.plantphysiol.org/content/147/4/2054.full.pdf+html. 
+Row 1910 (-1.59) Delayed flowering 1 in maize. dfl1 mediates floral inductive signals at the shoot apex of maize. Basic-leucine zipper (bZIP) transcription factor family protein in Arabidopsis and rice.	Article on dfl1in maize: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1676038/pdf/pp1421523.pdf. 
+Row 1542 (-0.54) SEUSS transcriptional co-regulator in Arabidopsis. Transcriptional corepressor SEUSS in rice. In Arabidopsis a SEUSS encodes a transcriptional co-regulator of AGAMOUS, that functions with LEUNIG to repress AGAMOUS in the outer floral whorls. AGAMOUS pathway entails Zag 1 and Zag 2 in maize.
+Row 1747 (-1.69) flowering promoting factor-like 1 in maize, Arabidopsis and rice. Involved in timing of flowering. Article on fpl1 in maize-- http://www.agron.missouri.edu/mnl/77/22pokutta.html. 
+Row 551 (1.90) flower promoting factor 1 in Arabidopsis and rice.		
+Row 596 (2.05) ZCN 26 in maize (a member of the PEBP family). In rice this is osFTL12 FT-Like12, which is homologous to Flowering Locus T (T=time) gene in Arabidopsis. In Arabi. and rice it promotes induction of flowering and is photoperiod and temperature sensitive.
+ZCN articles in maize: http://www.plantcell.org/content/23/3/843.full.pdf+html. and http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0071377&representation=PDF.  The latter investigates flowering time adaptation to the temperate zone. 
+Buckler et al. in Science on genetic architecture of maize flowering time: file:///C:/Users/Owner/Downloads/IND44243196%20(1).pdf. 	
+Row 1150 (2.02) NAC domain transcription factor superfamily protein in maize and Arabidopsis.  No apical meristem protein in rice. These are related to the CUP-SHAPED COTYLEDON (CUC) family of genes. They control various aspects of flower development. 
+Some maize NACs are also involved in stress (pathogen) responses and are promoted by Ethylene response factor and WRKY genes, article below, and see the ERF and WRKY genes. http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3694029/pdf/1471-2229-13-85.pdf. 	
+Row 2179 (1.87) No apical meristem protein in rice. NAC domain containing protein 47 in Arabidopsis.  				
+Zhao et al. 2011 Article on MADSbox genes as targets of selection in maize; http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3474543/pdf/nihms266803.pdf.  “For random loci, two genes were indicated as targets of selection during domestication and four additional genes were indicated to be candidate-selected loci for maize improvement.” 
+Wingen et al. paper—tunicate corn is determined by a MADsbox gene. http://www.pnas.org/content/109/18/7115.full.pdf
+The MADS Box Transcription Factor ZmMADS2 is required for anther and pollen maturation in maize. Article-- http://www.ncbi.nlm.nih.gov/pmc/articles/PMC389931/pdf/1341069.pdf. 
+Row 430_A characterization of the MADS-box gene family in maize - Mena - 2003 - The Plant Journal - Wiley Online Library Characterization of Zap 1, Zag 3, Zag 4, and Zag 5 in maize.
+Review of MADS-box genes in maize-- http://www.inb.uni-luebeck.de/publikationen/pdfs/MuDeWiOuCaFaWeKiSaTh02.pdf. 
+Tb1-related, TCPs
+Row 702 (-2.03) TCP transcription factor 44 in maize. It is TEOSINTE BRANCHED 1, cycloidea and PCF transcription factor 2 in Arabidopsis.
+Some notes on tb1 and other TCPs, their interactions with hormones and other genes and influences on branching, and other notes on hormonal actions.  
+From Koyama et al. article on Arabidopsis—“TCP3, a model of CIN-like TCPs of Arabidopsis thaliana, directly activates the expression of genes for miR164, ASYMMETRIC LEAVES1 (AS1), INDOLE-3-ACETIC ACID3/SHORT HYPOCOTYL2 (IAA3/SHY2) (this is auxin), and SMALL AUXIN UP RNA (SAUR) proteins. Gain of function of these genes suppressed the formation of shoot meristems and resulted in the fusion of cotyledons, whereas their loss of function induced ectopic expression of CUC genes (regulate formation of shoot meristem) in leaves. Our results indicate that miR164, AS1, IAA3/SHY2, and SAUR partially but cooperatively suppress the expression of CUC genes (CUC genes induce shoot meristem activity).”
+The Kebrom et al. article in Trends in Plant Science (“Grasses provide new insights into regulation of shoot branching”) is excellent, with a great review of hormonal regulation of branching, hormonal interactions with tb1 and other TCPs,  and other factors regulating shoot branching. Some information from Kebrom et al. Strigolactone is a new hormone discovered in eudicots and grasses that controls branching. It is directly regulated by cytochrome 450 and we have a large number of genes in the cytochrome 450 family differentially expressed (see below). Strigolactone synthesis is regulated by the availability of nutrients such as phosphate (Row 1322). “In some plants (rice and Arabidopsis) strigolactone blocks bud outgrowth by directly or indirectly regulating TB1”  “Cytokinin  biosynthesis is reduced by auxin and exogenously applied cytokinin can promote bud outgrowth to overcome apically derived auxin [29,32]. Strigolactone and cytokinin have an antagonistic relationship.  In addition, there is a correlation between the level of abscisic acid and bud dormancy [33].” 
+What abscisic acid does: stimulates the closure of stomata and drought responses (water stress brings about an increase in ABA synthesis), inhibits shoot growth, inhibits the effect of gibberellins by reducting de novo synthesis of a-amylase.  In rice, ABA is the primary hormone that mediates plant responses to stresses such as cold, drought and salinity.
+Kebron et al. summary, “Bud outgrowth is regulated by genetic, hormonal, developmental, and environmental factors, and the interaction between these factors determines the dormancy versus outgrowth fate of an axillary bud.”
+Also from Kebrom et al.; “Where there are differences, these lie in the interplay between hormonal networks, for example strigolactone reduces polar auxin transport in Arabidopsis and rice, but perhaps not in pea [37,50,54,57], or in the regulation of specific genes. TB1-like genes act downstream of strigolactones to inhibit bud outgrowth in both monocots and dicots, and “Recently, it was shown that branching in rice and pea was inhibited by the application of the strigolactone analogue, GR24 [46,47].”
+Also from Kebrom et al. and Bolduc and Hake 2009 paper; Knotted 1 in maize (Row 812, see below) is a homeobox gene and upregulates GA2ox1, the gibberellin catabolism gene (cited is Bolduc, N. and Hake, S., 2009) “The maize transcription factor KNOTTED1 directly regulates the gibberellin catabolism gene ga2ox1.” Plant Cell 21, 1647–1658). Knox also regulates cytokinin synthesis. Gibberellin deficiency can cause dwarfism in maize and less bud outgrowth. Gibberellin also plays a role in flower sex determination in maize. GA1 promotes shoot elongation in maize. From the Bolduc et al. Knox 1 maize paper: “a peak of Knox 1 loci was identified in a region that behaves as an enhancer for expression of teosinte branched1 (Studer et al. 2011).”   From Colebrook review of gibberellin “Evidence is accumulating that suppression of GA signaling is a general response to abiotic stress”. GA is one of the most important things determining plant height.
+Auxin Activity Genes Auxin is a crucial hormone for plant growth and development. Auxin and cytokinin are thought to play major roles determining axillary bud outgrowth and dormancy, and that determines shoot branching.  Auxin has an inhibitory effect on bud outgrowth and cytokinin does the opposite. The ratios of the two hormones determines these effects rather than the absolute levels of each. Article on this: http://www.plantphysiology.org/content/127/4/1405.full.pdf+html. 
+Row 566 (-4.4) SAUR1-auxin-responsive SAUR family member in maize. Auxin-responsive SAUR gene in Arabidopsis and rice (SAUR 1 in rice). SAUR = small auxin up RNA. Most members of this gene family are induced by auxin and they reduce polar auxin transport—the flow and distribution of auxin up and down between shoots and roots--which is a critical part of plant flower, seed, and vegetation development. SAUR reduces root and shoot growth and seed yield in rice; reduces rice polar auxin transport and increases abscisic acid and anthocyanin levels when over-expressed. Can be up-regulated by environmental factors. 
+SAUR genes have been little studied in maize and their roles are not well understood.  However, one study (Wu and McSteen 2007) showed that “the phenotype of plants treated with auxin transport inhibitors is very similar to that of barren inflorescence 2 and barren stalk 1 mutants (a trait of bs1 mutants is fewer tassel branches), suggesting that these genes function in the same auxin transport pathway. We determined that bif1 is expressed upstream and ba1 is expressed downstream of auxin transport, enabling us to integrate the genetic and hormonal control of axillary meristem initiation”. There were far fewer tassel branches in the late glacial and early Holocene chambers.
+From Chen et al on maize SAURs. 79 SAUR genes in maize were identified.  “SAUR genes are observed mainly expressed in growing hypocotyls or other elongating tissues, implying that they play a role in the regulation of cell elongation”. “In general, most members of ZmSAURs were expressed at higher levels in root and leaf tissues or organs, and showed lower expression levels in endosperm and seed”.  
+    Kebrom et al. “Cytokinin biosynthesis is reduced by auxin and exogenously applied cytokinin can promote bud outgrowth to overcome apically derived auxin [29,32]. In addition, there is a correlation between the level of abscisic acid and bud dormancy [33].”
+Some articles on SAURs: SAUR auxin genes in rice;  SAUR39, a Small Auxin-Up RNA Gene, Acts as a Negative Regulator of Auxin Synthesis and Transport in Rice See also Forestan and Vanatto, below. 
+Row 865 (-1.39) Uncharacterized protein in maize. Auxin-responsive GH3 family protein in Pfam and Arabidopsis. OsGH3.3 - Probable indole-3-acetic acid-amido (auxin) synthetase in rice. Article on Auxin GH3 in rice: http://www.aseanbiotechnology.info/abstract/21023589.pdf	
+Row 1821 (2.36) Auxin transporter-like protein 3 in maize and Aux-1 protein in rice. LAX 2-like AUXIN RESISTANT 2 in Arabidopsis. Auxin resistant genes cause altered morphologies in Arabidopsis. Article on auxin regulation of bud outgrowth and branching with a reference to Auxin resistant gene: file:///C:/Users/Owner/Documents/RNA%20Seq/Regulation%20of%20branching%20by%20auxin%20and%20cytokinin.pdf 
+Article, review of Aux/LAX family of auxin influx carriers. http://journal.frontiersin.org/Journal/10.3389/fpls.2012.00225/full	
+Row 482 (1.11) Auxin efflux carrier PIN5a in maize. Auxin Efflux Carrier Protein in Arabidopsis (PIN 5) and rice (PIN6). The auxin efflux carrier genes are also called PINs. Some of them act the opposite to SAURs by enhancing auxin transport in the plant. In Arabidopsis, PIN5 regulates intracellular auxin compartmentalization by transporting auxin from the cytosol into the ER lumen. Important in growth responses to environmental stimuli.  Other PINS determine the availability of auxin and its transport out of cells and direction. Less auxin efflux influence on auxin transport=Dwarf phenotype, blocking of axillary meristem initiation, and fewer tassel branches (see above under SAUR genes).  
+Row 1787 (-0.75) In maize, Auxin Efflux Carrier family isoform 1, Auxin Efflux Carrier family isoform 2, and Auxin Efflux Carrier family protein. Auxin efflux carrier family protein in Arabidopsis and rice.									
+Row 1794 (-2.05) Putative auxin efflux carrier PIN5c in maize. Auxin Efflux Carrier Protein in Arabidopsis (PIN 5) and rice. Membrane transport protein in maize.
+Auxin efflux in maize;   http://mplant.oxfordjournals.org/content/early/2011/12/19/mp.ssr103.full.pdf+html
+From Forestan and Varotto in the paper “The Role of PIN Efflux Carriers in Polar Auxin Transport…Shaping Maize Development”:  “Auxin biosynthesis and transport function synergistically to regulate the formation of axillary meristems and lateral organs in maize. The contribution of auxin polar transport, a peculiar property of auxin, is important in creating the hormone gradients that control the above list of developmental processes ”. From  Forestan and Varotto--Auxin itself upregulates the transcription of many long PINs and ZmPIN1 may play a role in polar auxin transport.
+From Forestan and Varotto: ZmPIN1 probably plays a role in maize vegetative development: “In maize seedlings and young plants, ZmPIN1 transcripts and proteins are detectable in the coleoptile (sheaf protecting the young shoot tip), in the inner central region of the shoot apical meristem, in the lateral outgrowing primordia, in the tips of young leaves, and in vascular bundles of the apex and leaves.” After germination, IAA (auxin) polar transport in the coleoptile is mediated by basally localized ZmPIN1 proteins. 
+ From Kebrom et al., Strigolactones can also affect PIN1 protein accumulation and reduce polar auxin transport in some plants. From Peer et al. Arabidopsis article. Auxin transport is enhanced in the absence of flavonoids (transparent testa4 [tt4]) and reduced in the presence of excess flavonols (tt7 and tt3).
+More Auxin Efflux papers.
+http://genomebiology.com/2009/10/12/249, http://www.sciencedirect.com/science/article/pii/S0925477312000226
+Row 482_Auxin Efflux Protein Transport Explanation
+Row 482_Auxin Transporter_Auxin Efflux Protein in Flavonoid Mutants with Altered Auxin Transport in Arabidopsis thaliana 
+Row 1316 (-3.06) HLH DNA-binding domain superfamily protein in maize. Auxin-induced protein 5NG4 in rice; Nodulin MtN21 /EamA-like transporter family protein in Arabidopsis. 
+Cytokinin Genes
+Row 1080 (-1.37) Cytokinin-O-glucosyltransferase 3 (ZOG3) in maize and rice.  don-glucosyltransferase 1 in Arabidopsis. Article on ZOG in maize; http://jxb.oxfordjournals.org/content/59/10/2673.full.pdf. 	
+Row 1005 (1.76) cytokinin-O-glucosyltransferase 2 in rice. UDP-glucosyl transferase 85A2 in Arabidopsis. 					
+Knotted (Knox) Genes 
+Row 812 (1.70) Knotted-like transcription factor family protein in maize.  It is a homeobox gene. Homeobox protein knotted-1 in rice and KNOTTED-like homeobox of Arabidopsis thaliana 7.  In maize Knox 1 directly regulates gibberellin synthesis through effects on the GA catabolism gene ga2ox1; it is also involved in auxin and cytokinin. Knox 1 impacts tassel branch number (more of Knox 1=more tassel branches) and seed yield (more of Knox 1=greater cob size and seed yield). The tissues where KN1 naturally accumulates at high levels are immature ears, tassels, and shoot apical meristem.
+Fig. 3 in Bolduc et al. is very informative in way of Knox 1 activity with other genes. From the Bolduc et al. Knox 1 maize paper: “a peak of Knox 1 loci was identified in a region that behaves as an enhancer for expression of teosinte branched1 (Studer et al. 2011). KN1 recognizes in vitro a motif present in this region that is conserved in maize landraces, modern inbreds, and teosinte (Supplemental Figs. 6C, 8). These data suggest that distantly located KN1-bound regions may represent enhancers important for gene regulation.”  Also they say, “KN1 could directly contribute to the formation of lateral organs through specific spatiotemporal modulation of auxin synthesis, transport, and signaling. A complex equilibrium between the different hormones is crucial for proper meristem maintenance and organ initiation, and our results support a model in which KN1 plays a major role in the establishment and maintenance of this equilibrium. Our results show that KN1 stands at the top of an intricate regulatory network involving hormonal pathways and transcriptional regulators. ”
+Another Bolduc maize Knox paper: http://www.plantphysiol.org/content/early/2013/11/11/pp.113.228791.full.pdf+html
+Volbrecht et al. Maize Knotted 1 paper_ http://dev.biologists.org/content/127/14/3161.full.pdf. 
+Other Cytokinin Related
+Row 568 (1.25) DIMBOA UDP-glucosyltransferase BX8 in maize, where it apparently functions as pesticide and insecticide. UDP-Glycosyltransferase superfamily protein in Arabidopsis. Cytokinin-N-glucosyltransferase 1 in rice, is involved in cytokinin regulation and response.	
+Article on DIMBOA UDP in maize: http://www.plantphysiology.org/content/146/3/1053.full.pdf+html. 		
+Row 601 (2.62) ENTH/ANTH/VHS superfamily protein in Arabidopsis. Involved in membrane trafficking, cytokinin activity.
+Row 1263 (-2.57) Uncharacterized protein in maize. ENTH/ANTH/VHS superfamily protein in Arabidopsis.  
+Abscissic acid (ABA) and related such as Beta glucosidase genes  “β-glucosidases have been  implicated in physiologically important processes in plants, such as response to biotic and abiotic stresses,  defense against herbivores, activation of phytohormones, lignification, and cell wallremodeling.” See the Gomez-Arturo et al. paper “Genome Wide Analysis….” for a good summary of Beta-glucosidase genes in maize. 
+
+
+Jasmonate, Ethylene-responsive factor (ERF) and AP2 (APETALA 2) genes. In plants, cross-talk between ethylene and jasmonate signaling pathways, or the action of either one, determines the activation of a set of important inducible defense responses against herbivores and pathogens. Apetala genes in maize can also control floral and seed development. Ethylene-responsive factor 1 is upregulated by jasmonate in Arabidopsis. Article on this-- http://www.plantcell.org/content/15/1/165.full.pdf+html  
+AP2/ERF transcription factors “intimately regulate gene expression in response to hormones, biotic and abiotic factors, symbiotic interactions, cell differentiation, and stress signalling pathways in plants.”  In rice, one of the AP2/ERF factors restricts internode elongation by down regulating gibberellin, for example. This effect actually increases seed yield in rice. Article-- http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3165871/pdf/216.pdf
+Another AP2 factor in rice controls key interactions between abscisic acid and gibberellin and regulates plant growth and seed production. Article-- http://www.plosgenetics.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pgen.1001098&representation=PDF
+Article on an Apetala 2-like gene in maize: http://genesdev.cshlp.org/content/10/23/3018.full.pdf+html 
+Row 1379 (1.33) AP2/EREBP (ethylene responsive element binding factor) transcription factor superfamily protein in maize. Ethylene responsive element binding factor 4 in Arabidopsis, and AP2 domain in rice.			
+Row 1894 (1.49) Ethylene-responsive transcription factor 4, AP2/EREBP transcription factor superfamily protein in maize. AP2 domain in rice. Ethylene response factor 7 in Arabidopsis.
+Row 1966 (1.06) Ethylene-responsive transcription factor 4 and AP2/EREBP transcription factor superfamily protein in maize. AP2 domain containing protein in rice.
+Row 1096 (2.9) AP2/EREBP transcription factor superfamily protein in maize. Ethylene response factor 7 in Arabidopsis and AP2 domain containing protein in rice.			
+Row 762 (2.57) Uncharacterized protein in maize. AP2 (Apetala 2) domain containing protein in rice. Rho GTPase activating protein with PAK-box/P21-Rho-binding domain in Arabi. Regulate lateral organ identify during flower and leaf development.	
+Row 490 (3.18) Uncharacterized protein in maize. Ethylene response factor in Arabidopsis. AP2 domain containing protein in rice.
+Row 711 (1.67) HLH (helix-loop-helix) DNA-binding domain superfamily protein in maize. Basic helix-loop-helix (bHLH) DNA-binding superfamily protein in Arabidopsis.  Ethylene-responsive protein related in rice.
+Row 668 (1.25) basic helix-loop-helix (bHLH) DNA-binding superfamily protein	 in maize and Arabidopsis.  ethylene-responsive protein related in rice.						
+Row 932 (2.31) AP2 domain in Pfam. Ethylene responsive element binding factor 1 in Arabidopsis and ethylene-responsive transcription factor in rice.
+Row 1150 (2.02) NAC domain transcription factor superfamily protein in maize and Arabidopsis.  No apical meristem protein in rice. Some NACs in maize are promoted by EREBP and WRKY genes, accumulate in response to jasmonine, and involved in stress responses, article: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3694029/pdf/1471-2229-13-85.pdf. 
+___________________________________________________________________	
+Row 1269 (-1.03), Protein phosphatase 2C family protein, key player in signal transduction, including abscissic acid.  http://www.ncbi.nlm.nih.gov/pubmed/9869399 
+Also see the WRKY genes below.
+Other HLH Proteins
+Row 760 (-2.39) HLH DNA-binding domain superfamily protein in maize, rice and Arabidopsis. Have broad functions in regulating cell proliferation and cellular differentiation pathways. Can be Phytochrome reaction partners.
+Row 633 (2.46) HLH DNA-binding domain superfamily protein in maize, rice and Arabidopsis. 
+Row 2312 (2.19) HLH DNA-binding domain superfamily protein in maize, rice and Arabidopsis.
+Cytochrome 450 Activity, including with relation to Strigolactone/Caretenoid cleavage dioxygenase8. Cytochrome p450s are a large gene superfamily involved in a large array of reactions, including lignin biosynthesis, detoxification of xenobiotics, and hormone metabolism. Some directly regulate the biosynthesis of strigoloactone (SL), a new hormone discovered that is involved in (suppresses) shoot branching.  SL=more ABA in many plants. There is a very interesting recent paper on strigolactone (SL) in maize by Guan et al. There appears to have been an uncoupling in maize of the Tb1 subnetwork from SL signaling that in Arabidopsis and other plants leads to reduced lateral branching and apical dominance. Guan et al. suggest it happened during recent maize evolution. This is also associated with a loss of CARETENOID CLEAVAGE DIOXYGENASE8 (CCD8) during maize evolution. A zmccd8 mutant is epistatic to tb1 with respect to branching. 
+Article on Strigoloactone signaling in maize architecture--http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3490586/pdf/1303.pdf
+Row 1146 (-1.46) It is nine-cis-epoxycarotenoid dioxygenase 4 in Arabidopsis and 9-cis-epoxycarotenoid dioxygenase 1, chloroplast precursor in rice. This is a key enzyme in ABA biosynthesis in Arabidopsis and is related to the CCD8 gene in maize, which controls Strigoloactone biosynthesis. It can be induced by drought stress. 
+Row 1789 (1.40). Cytochrome P450 in maize, Arabidopsis, and rice.
+Row 1824 (-1.89) Cytochrome P450 in maize, rice, and Arabidopsis (cytochrome P450, family 714, subfamily A, polypeptide 1 in Arabidopsis)
+Row 1839 (-2.03) Cytochrome P450 in maize, Arabidopsis and rice.				
+Row 405 (1.65), Uncharacterized protein, sequence similar to Cytochrome 450 family (Biological process = response to auxin) in maize. Cytochrome P450 superfamily protein in Arabidopsis. Cytochrome 450 in rice.
+Row 443 (1.67) Cytochrome P450 in maize and rice. Cytochrome P450, family 71, subfamily A, polypeptide 25 in Arabidopsis.
+Row 539 (1.48) Indolin-2-one monooxygenase in maize. Cytochrome P450, family 71, subfamily A, polypeptide 22 in Arabidopsis. Cytochrome 450 in rice.
+Row 555 (1.92) Cytochrome 450 in maize and rice. Cytochrome P450, family 90, subfamily D, polypeptide 1 in Arabidopsis.	
+Row 573 (2.69) Uncharacterized protein in maize. Cytochrome 450 in rice. Cytochrome P450, family 71, subfamily B, polypeptide 3 in Arabidopsis.		
+Row 622 (3.07) Cytochrome P450 superfamily protein in maize. Cytochrome P450, family 71, subfamily A, polypeptide 25 in Arabidopsis.  Cytochrome 450 in rice.
+Row 714 (-1.74) Cytochrome P450 superfamily protein in maize. Cytochrome P450, family 81, subfamily D, polypeptide 8 in Arabidopsis. Cytochrome 450 in rice.
+Row 807 (1.14) Uncharacterized protein in maize. Cytochrome P450 in Arabidopsis and rice.
+Row 1089 (-1.19) Cytochrome P450 in maize and rice.  Cytochrome P450, family 94, subfamily B, polypeptide 3 in Arabidopsis. 									
+Row 1134 (-1.9) Uncharacterized protein in maize (belongs to the Cytochrome P450 family). Cytochrome P450, family 71, subfamily B, polypeptide 34 in Arabidopsis. Cytochrome 450 in rice. 
+Row 1300 (1.28) Allene oxide cyclase in maize, Arabidopsis and rice (AOC-3 in Arabi. and rice). According to the Maize Handbook, these are in the oxylipin (can be jasmonic acid-related) pathway that  play important  signaling roles in biotic and abiotic stress responses.  		
+Row 1409 (-2.26) Cytochrome P450 CYP74A19 in maize. Allene oxide synthase in Arabidopsis. Cytochrome P450 in rice. 
+Row 1516 (2.02) cytochrome P450, family 707, subfamily A, polypeptide 4 in Arabidopsis. Cytochrome 450 in rice.	
+Row 1954 (2.05) Uncharacterixed protein in maize (sequence similar to cytochrome 450 family). Cytochrome P450 51 in Pfam and Arabidopsis.	
+Phytochrome B
+Row 1785 (-1.03) Phytochrome in maize. Phytochrome B in Arabidopsis and rice.			__________________________________________________________________								
+WRKY Genes “The WRKY family is one of the 10 largest transcription factor families in higher plants”.  Important for reaction to biotic and abiotic stresses (including cold and drought), plant hormone signaling (e.g., regulation of ABA signaling, mediation of ABA during seed development), and plant growth and development. Some WRKY genes repress gibberellin signaling.
+Row 707 (-2.53) VQ motif family protein in maize, Arabidopsis and rice. 	They are co-activators of WRKY.
+Row 797 (-3.55).  WRKY DNA-binding domain superfamily protein in maize. WRKY DNA-binding protein 72 in Arabi. WRKY 107 in rice. Row 413 (2.18) Uncharacterized protein in maize. WRKY DNA-binding 27 in Arabidopsis. WRKY39 in rice.
+Row 828 (2.05) WRKY DNA-binding domain superfamily protein in maize. WRKY 11 in Arabidopsis and WRKY 68 in rice.		
+Row 1908 (-2.55). WRKY62-superfamily of TFs having WRKY and zinc finger domains in maize. WRKY DNA-binding protein 18 in Arabdopsis and WRKY 62 in rice.			
+Row 1993 (-2.13). WRKY DNA-binding domain superfamily protein in maize and Arabidopsis. WRKY 9 in rice.
+Row 2104 (-1.22) WRKY DNA binding domain containing protein in maize. ABA overly sensitive mutant 3 in Arabidopsis and WRKY108 in rice. 
+Row 2169 (-1.77) WRKY in maize. WRKY 40 in Arabidopsis.  WRKY76 in rice.
+Row 2222 (-2.36) WRKY DNA-binding protein 72 in Arabidopsis. WRKY107 in rice.
+http://www.ncbi.nlm.nih.gov/pubmed/22279089 --WRKY in maize, stress responses.
+http://link.springer.com/article/10.1007%2Fs10725-013-9792-9--WRKY in stress responses in maize.
+Tripathis et al., file:///C:/Users/Owner/Documents/RNA%20Seq/WRKY%20in%20Brachyposium.pdf
+Brassinosteroids and related [C3HC4 type (RING finger) and Leucine-rich repeat kinase] genes. Brassinosteroids (Brs) are essential plant hormones involved in growth and development and stress responses.  Brs have strong growth-inducing properties. They interact with other hormones including auxin, ABA, and gibberellin and have an additive effect with gibberellin. Br-deficient plants are dwarfs in Arabidopsis and maize, and in maize they exhibit flower feminization. Brs control flower sex determination in maize (Hartwig et al. article below). “Brassinosteroids (BRs) require an active BRASSINOSTEROID-INSENSITIVE 1 (BRI1) receptor serine/threonine kinase for hormone perception and signal transduction.” (Ehson et al. article).
+Row 1228 (2.32) BRASSINOSTEROID INSENSITIVE 1-associated receptor kinase 1 in maize and rice. It is somatic embryogenesis receptor-like kinase 1in Arabidopsis. 
+Row 1463 (1.01) BRASSINOSTEROID INSENSITIVE 1-associated receptor kinase 1 precursor in rice. Protein kinase superfamily protein in Arabidopsis. 					
+Row 1475 (-1.78) Uncharacterized protein in maize (zinc finger domain). It is brassinosteroid-responsive RING-H2 in Arabidopsis.  It is Zinc finger, C3HC4 type domain containing protein in rice. In rice and Arabidopsis these genes are stress-, hormone- and light-responsive elements. In Arabidopsis a RING-H2 increases ABA synthesis (Ko et al. paper). From Ma et al., article: “12 rice C3HC4 RINGﬁnger genes were regulated by hormones, such that all these 12 genes were affected by ABA, JA and BR, 7 genes were inﬂuenced by IAA, 7 genes were regulated by GA3, and 6 genes responded to KT.”  In maize, abiotic and hormone stress responses are indicated (Wang et al. and Yuan et al., articles, below). This gene family also appears to be associated in function with E3 ligases, a number of genes of which are differentially expressed (below).
+Row 2048 (1.16) Uncharacterized protein--Brassinosteroid  biosynthetic process—bhlh in maize. Cytochrome 450 in rice and Arabidopsis.								
+Brassinosteroids in maize--Hartwig et al. paper http://www.pnas.org/content/early/2011/11/16/1108359108.full.pdf+html?with-ds=yes
+Another paper on Brassinosteroids in maize; http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0030798&representation=PDF. 
+A Br gene general review article: file:///C:/Users/Owner/Documents/RNA%20Seq/Brassinosteroids%20and%20Plants.pdf	
+In maize (from Hartwig et al., 2011 “Brassinosteroid control of sex determination in maize”)  “BRs control sex determination in maize revealed through characterization of the classical dwarf mutant nana plant1 (na1), which also feminizes male flowers.  “BRs promote masculinity of the male inflorescence. ….These findings suggest that, in the monoecious plant maize, BRs have been coopted to perform a sex determination function not found in plants with bisexual flowers.” 
+From Ehson et al. BRASSINOSTEROID INSENSITIVE 1 in Arabidopsis article: “. The emerging picture of BR signal transduction reveals that plant steroids, in contrast to the primary mode of action of animal steroid hormones, are perceived at the cell surface by one or more members of the large family of leucine-rich repeat receptor-like kinases (LRR RLKs) found in plants”.
+Ma et al. article on C3H4 RINGfinger in rice. file:///C:/Users/Owner/Documents/RNA%20Seq/C3H4-type%20RING%20finger%20in%20rice_Ma%20et%20al..pdf
+Wang et al. article on C3H4 RING-type in maize http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0058003&representation=PDF
+Yuan et al. on C3H4 RING-type in maize. http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0058003&representation=PDF
+Zinc finger article in maize, perhaps involved in light regulation-- http://www.ncbi.nlm.nih.gov/pmc/articles/PMC143930/pdf/100075.pdf
+Zinc finger article in maize, perhaps involved in seed storage protein regulation-- http://www.ncbi.nlm.nih.gov/pmc/articles/PMC23883/
+Other Zinc finger C3HC4 genes
+Row 416 (1.54) RING zinc finger domain superfamily protein in maize. RING/U-box superfamily protein in Arabidopsis. RING-H2 finger protein in rice.
+Row 602 (-1.82) zinc finger, C3HC4 type domain containing protein in rice. RING/U-box superfamily protein in Arabidopsis.
+Row 808 (-1.08)  Uncharacterized protein (zinc iron binding) in maize. RING/FYVE/PHD zinc finger superfamily protein in Arabidopsis. Retrotransposon protein, putative, Ty3-gypsy subclass in rice.	
+Row 855 (-4.0) Uncharacterized protein (zinc iron binding) in maize. Zinc finger, C3HC4 type domain containing protein in rice.
+Row 1473 (-1.69) RING/U-box superfamily protein in Arbidopsis.	 RING-H2 finger protein 	 in rice. RING finger proteins comprise a large family and play key roles in regulating growth/developmental processes, hormone signaling and responses to biotic and abiotic stresses in plants.
+Row 546 (4.01) RING zinc finger domain superfamily protein in maize. Ring U-box superfamily protein in Arabidopsis. zinc finger, C3HC4 type domain containing protein in rice. In rice it is associated with E3 ligase activity.	
+Row 481 (1.76) RING zinc finger domain superfamily protein in maize. RING/U-box superfamily protein in Arabidopsis. RING-H2 finger protein in rice.
+Row 1287 (1.78) Zinc finger (C3HC4-type RING finger) family protein in rice and Arabidopsis.
+Row 1590 (-1.40) RING zinc finger domain superfamily protein in maize.  Zinc finger (C3HC4-type RING finger) family protein in Arabidopsis. Cytokinesis negative regulator RCP1in rice. Cytokinesis is the splitting of a cell cytoplasm during mitosis. 
+Row 1855 (1.27) RING zinc finger domain superfamily protein in maize. Zinc finger, C3HC4 type domain containing protein in rice. 						
+Other Leucin-rich Protein Kinases 
+Row 472 (-1.17) Leucine Rich Repeat protein kinase family in maize and Arabidopsis. SHR5-receptor-like kinase in rice.  
+Row 971 (-1.06) leucine-rich repeat receptor-like protein kinase family protein in maize, Arabidopsis and rice. 	
+Row 1004 (1.58) leucine-rich repeat receptor-like protein kinase family protein in maize, Arabidopsis and rice. 			
+Row 1051 (-1.42) leucine-rich repeat protein kinase family protein	in maize and Arabidopsis. Receptor-like kinase in rice. 		
+Row 1469 (-1.9) Leucine-rich repeat protein kinase family protein in maize, Arabidopsis, and rice. 
+Row 2171 (-1.84) Leucine-rich repeat protein kinase family protein in Arabidopsis. Transposon protein in rice.
+Row 1218 (-1.06) Leucine-rich receptor-like protein kinase family protein	in Arabidopsis. Receptor protein kinase CLAVATA1 precursor  in rice. Article—a leucine-rich repeat receptor-like protein that is most closely related to CLAVATA2 from Arabidopsis shoot meristem in maize. Article on CLAVATA 2 in maize—Taguchi-Shiobara et al. 
+Row 1875 (-1.00)  Leucine-rich repeat protein kinase family protein in Arabidopsis.		
+Row 2171 (-1.84) Leucine-rich repeat protein kinase family protein in Arabidopsis. Transposon protein in rice.
+Row 2237 (1.84) Leucine-rich repeat protein kinase family protein	 in Arabidopsis and rice.
+Row 2246 (-0.63) Protein kinase family protein with leucine-rich repeat domain in Arabidopsis.
+Row 2339 (3.57) Leucine-rich repeat protein kinase family protein in Arabidopsis.		
+Other Finger Genes
+Row 1046 (1.18) RING finger and CHY zinc finger domain-containing protein 1 in maize, Arabidopsis and rice. 		
+Row 1614 (-0.98) dof zinc finger domain containing protein in rice. OBF-binding protein 3 in Arabidopsis.
+Row 2234 (2.49) RNA helicase family protein in maize. Zinc finger (CCCH type) helicase family protein in Arabidopsis. Zinc finger CCCH domain-containing protein 4 in rice. 
+RNA helicase is an early regulator of transcription factors for plant chilling tolerance. Article below. http://www.ncbi.nlm.nih.gov/pmc/articles/PMC123286/pdf/pq1702011507.pdf 
+Article on RNA helicase in maize: http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0078982&representation=PDF
+
+Plos One article on zinc finger CCCH type in maize. It has stress responsive cis-elements in maize that show differential expression to drought and abscisic acid. http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0040120&representation=PDF
+ARM, Armadillo Repeat Family Proteins ARMs represent a new family of E3 ligases in Arabidopsis and rice. They promote protein-protein interactions and regulate a large number of cellular functions. They are little studied in maize. From review article below: They are “a major regulatory network that permits plants to integrate internal and external signals within minutes into a cellular response that involves the ubiquitin proteasome pathway. E3 ligases play central roles in phytohormone signal transduction, namely ethylene, auxin, jasmonic acid, gibberellic acids, and strigolactones.”
+Row 524 (-1.42) ARM repeat superfamily protein in Arabidopsis. Armadillo/beta-catenin repeat family protein in rice.
+Row 526 (3.79) ARM…..						
+Row 996 (-4.21) Senescence-associated E3 ubiquitin ligase 1 in Arabidopsis.  Armadillo/beta-catenin repeat protein-related in rice. 
+Row 1627 (-1.36) ARM repeat superfamily protein in Arabidopsis.	 Armadillo/beta-catenin repeat family protein in rice.
+Row 2343 (-1.35) ARM repeat-containing protein containing family protein in maize. RING/U-box superfamily protein with ARM repeat domain in Arabidopsis. Spotted leaf 11 in rice. Article on spotted leaf 11 in rice below: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC520972/pdf/tpc1602795.pdf			
+Review article on E3 ligases in plants file:///C:/Users/Owner/Documents/RNA%20Seq/ARM%20E3%20Ligases%20in%20Plants%20Review_Chen%20and%20Hellmann.pdf
+MATE Efflux Family Proteins (“Move it on out with MATE”)
+Some family members promote aluminum tolerance in maize. Article-- http://www.plantmineralnutrition.net/JonS%20pubs/Maron%20MATE%202010.x.pdf
+Article on MATE in maize--http://onlinelibrary.wiley.com/doi/10.1111/j.1365-313X.2009.04103.x/pdf	
+In Arabidopsis, some MATEs control iron deficiency responses.
+Row 559 (-2.11) Uncharacterized protein in maize. MATE efflux family protein in Arabidopsis and rice. 
+Row 1230 (1.71) MATE efflux family protein in maize, Arabidopsis and rice.
+Row 1497 (1.53) MATE efflux family protein in maize, Arabidopsis and rice.
+Nitrogen assimilation, fixation, and use. Note: nodulin genes, a number of which are DE, below, are now being found in non-nodulating plants like maize, rice, and Arabidopsis where they may have a variety of functions in addition to nitrogen fixation: From Denance et al. “Emerging Functions of Nodulin-Like Proteins in Non-Nodulating Plant Species”—“Recent studies now highlight the importance of nodulin-like proteins for the transport of nutrients, solutes, amino acids or hormones and for major aspects of plant development.”
+Row 860 (2.53) Nitrate reductase in maize.  Nitrate reductase 1 in Arabidopsis and rice. Nitrate reductase is a key enzyme involved in the first step of nitrate assimilation in plants, fungi and bacteria. It is required for good plant growth and seed yield. Much literature on it including in maize.
+Row 1644 (1.40) Uncharacterized protein in maize. Nitrate reductase in Arabidopsis and rice.
+Row 435 (2.04) Ferredoxin-6 (FDX6) in maize. Belongs to the 2Fe2S plant-type ferredoxin family.  Ferredoxin 3in Arabidopsis. 2Fe-2S iron-sulfur cluster binding domain containing protein in rice. “Ferredoxins are iron-sulfur proteins that function primarily in photosynthesis (CO2 assimilation). Also for assimilations of inorganic nitrogen and sulfur, and N2 fixation.”
+Row 744 (1.2) Ferredoxin 1 in maize. 
+Row 520 (1.10) Chloroplast ferredoxin 2 in maize. 2Fe-2S ferredoxin-like superfamily protein in rice. Article on Ferredoxin 2 in maize: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1283780/pdf/pp1391451.pdf. 
+Row 1376 (1.05) Uncharacterized protein in maize. 2Fe-2S ferredoxin-like superfamily proteinin Arabidopsis. 2Fe-2S iron-sulfur cluster binding domain containing protein in rice. 		
+Row 511 (3.09) Asparagine synthetase in maize and rice. Glutamine-dependent asparagine synthase 1in Arabidopsis. Light receptor mediated by the photoreceptor phytochrome. Asparagine synthetase plays a key role in nitrogen metabolism. Sucrose can cause the gene to be repressed (see Row 618 below). Article on asparagine synthetase in maize: http://onlinelibrary.wiley.com/doi/10.1046/j.1365-313X.1996.09010001.x/abstract. 
+Row 876 (3.52) Asparagine synthetase in maize and rice.  Glutamine-dependent asparagine synthase 1 in Arabidopsis.									
+Also, Row 618 (-3.38), Uncharacterized protein in maize. Sucrose transporter 2 in Arabidopsis; sucrose transporter BoSUT1 in rice. Sucrose transporters are important for a number of functions including modulating glutamine synthase levels and carbon partitioning. BoSUT1 has been identified in maize.									
+Row 538 (1.43) Nitrogen regulatory PII-like, alpha/beta in Arabidopsis. CutA, chloroplast precursor in rice.
+Row 471 (-1.29) Nodulin-like protein in maize and rice. Major facilitator superfamily protein in Arabidopsis. 
+Row 1192 (-2.26) Major facilitator superfamily protein in Arabidop.  Nodulin in rice. 
+Row 1808 (1.85) Major facilitator superfamily protein in Arabidopsis and nodulin in rice.		
+Row 2162 (-1.3) Major facilitator superfamily protein in Arabidop. Nodulin in rice.
+Row 1815 (-1.44) Major Facilitator Superfamily in rice. Nitrate transporter2.5 in Arabidopsis.	
+Row 1540 (-1.12) ZOS1-01 - C2H2 zinc finger protein in rice.
+_____________________________________________________________________________
+Water Transport: Aquaporin Genes “Aquaporins are multifunctional membrane channels that facilitate the transmembrane transport of water and solutes. Plant aquaporins are significant not only in plant-water relations, but also in physiological aspects such as nutrient transport and metal/metalloid toxicity”--From Yue et al. Aquaporin article in maize below. file:///C:/Users/Owner/Downloads/546930.pdf. 
+Row 1510 (1.42 ) Aquaporin TIP1-2	in maize. Aquaporin protein in rice. 
+Row 2284 (1.11) Aquaporin PIP2-4in maize. Aquaporin protein in rice. 
+___________________________________________________________________________			
+MYB Transcription Family “The MYB gene family comprises one of the richest groups of transcription factors in plants.  MYB transcription factors are involved in plant development, secondary metabolism, hormone signal transduction, disease resistance and abiotic stress tolerance.” A number of MYB genes are recently identified in maize, where their functions are for the most part poorly understood. In Arabidopsis the expression for most of the MYB genes were responsive to one or multiple types of hormone and stress treatments.				
+Row 406 (-0.91) MYB DNA-binding domain superfamily protein in maize, rice and Arabidopsis.	
+Row 509 (2.28) MYB transcription factor family in maize, Arabidopsis and rice.	 
+Row 784 (-1.45) MYB…….
+Row 840 (1.87) DNA binding protein in maize. MYB in rice. Homeodomain-like superfamily protein in Arabidopsis.
+Row 841 (1.21) Glycosyl transferase, group 1 family protein in maize. MYB in rice. Homeodomain-like superfamily protein in Arabidopsis.
+Row 834 (1.26) MYB in maize (SHAQKYF class family protein) in maize. MYB in rice. Homeodomain-like superfamily protein in Arabidopsis.
+Row 1180 (-1.39) MYB DNA-binding domain superfamily protein in maize, Arabidopsis and rice.		
+Row 878 (2.42) MYB transcription factor family in maize, Arabidopsis and rice.	
+Row 886 (1.68) R2R3MYB-domain protein in maize. MYB transcription factor family in Arabidopsis and rice.	
+Row 1864 (1.43) MYB transcription factor TaMYB1 in maize and rice. Myb domain protein 73 in Arabidopsis.  				
+Row 1503 (-1.17) Homeodomain-like superfamily protein in Arabidopsis.  MYB-related.
+Row 1651 (1.83) MYB DNA-binding domain superfamily protein in maize, rice and Arabidopsis.
+Row 2386 (-1.45) MYB transcription factor in Pfam and rice (RAD-like 1 in Arabidopsis).
+Row 2389 (-1.19) MYB DNA-binding domain superfamily protein in maize and rice. Homeodomain in Arabidopsis. 			
+Maize MYB article below; expression patterns suggest they may be involved with the development of most to all maize organs. http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0037463&representation=PDF. 
+______________________________________________________________________________
+Other Genes 
+Row 444 (6.08) AMP-dependent synthetase and ligase superfamily protein in maize and Arabidopsis.  Amp-binding enzyme in rice.	
+Row 694 (2.04) Stachyose synthase in maize. “Accumulation in plant cells are closely associated with the responses to environmental factors, such as cold, heat and drought stresses.” Article on this in maize: http://glycob.oxfordjournals.org/content/early/2012/08/08/glycob.cws121.full.pdf. 	
+Row 1685 (-1.88) Beta-amylase in maize. Catalyses the hydrolysis of starch into sugars.		
+Row 1372 (-1.00) Defense-related protein in maize.  Class I glutamine amidotransferase in Arabidopsis and rice. 
+Row 897 (1.44) Brevis radix (BRX) in Arabidopsis and rice. Identified as a modulator of root growth.
+Row 594 (-1.00) Yellow Stripe-like 6 in Arabidopsis. Maize YS1 is the founding member of a family of membrane transporters called YS1-like (YSL), which functions in root Fe–phytosiderophore uptake from the soil.
+Row 935 (2.58) Chitinase 1 in maize. An antifungal protein. 
+Row 1377 (-1.72) Potassium transporter 1 in Arabidopsis. Osmotic plant stresses and plant growth. 
+Row 506 (-1.31) Agenet domain containing protein in rice. There are agenet proteins recently identified in maize that interact with the basic helix–loop–helix (bHLH) protein R and regulate anthocyanin production. Paper: http://www.pnas.org/content/104/43/17222.full.pdf. 
+Row 654 (-1.53) WAX 2 in rice and Arabidopsis.  Involved with synthesis of the cuticle, wax synthesis, stomatal density, drought protection. 
+Row 503 (2.66) WAX 2 in rice. Fatty acid hydroxylase superfamily in Arabidopsis.
+Article on WAX 2 in Arabidopsis-- http://www.sciencedaily.com/releases/2003/05/030522082822.htm
+Row 577 (-4.27) WAK family receptor-like protein kinase in maize. Wall-associated receptor kinase in Arabidopsis and rice. 
+Row 922 (-1.59) Kinase interacting (KIP1-like) family protein in Arabidopsis and rice. In Arabidopsis a Kip protein exerts a plant growth inhibitory activity by reducing cell proliferation in leaves.			
+Row 1026 (3.02) TESMIN/TSO1-like CXC in Arabidopsis and rice. In Arabi. Male and female flower fertility.
+Row 1054 (-2.9) alpha/beta-Hydrolases superfamily protein in Arabi. Lipase in rice.		
+Row 685 (-1.38, sig) Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase family protein in Arabidopsis. ATP-binding region in rice. 
+Row 701 (-6.2) HD domain-containing metal-dependent phosphohydrolase family protein in Arabidopsis and rice.  Drought resistance.
+Row 1205 (-1.41) Proline oxidase in maize and rice. Methylenetetrahydrofolate reductase family protein in Arabidopsis. Response to biotic and abiotic stresses.
+Row 1413 (-1.12) glutathione S-transferase in maize, rice, and Arabidopsis. In maize and other crops, implicated in the detoxification of xenobiotics via glutathione conjugation, and resistance to multiple diseases. The expression of the maize GST II gene is enhanced by auxin. Rice GSTs show differential expression in the presence of auxin and cytokinin. Article on rice GSTs. http://www.biomedcentral.com/content/pdf/1471-2164-11-73.pdf    
+Row 1460 (1.08) ZIM motif family protein in maize and rice.  Jasmonate-zim-domain protein 1 in Arabidopsis.  Jasmonate-zim functions in herbivory and pathogen defense. Articles below. http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0075728&representation=PDF. 
+http://www.plantphysiol.org/content/146/3/952.full.pdf+html. 					
+Row 1027 (2.05) Disease resistance gene analog PIC17 in maize.  NB-ARC domain-containing disease resistance protein in Arabidopsis and rice.							
+Row 1485 (-1.1) Verticillium wilt disease resistance protein in rice. Receptor like protein 7 in Arabidopsis.				
+Row 1496 (-1.46) Protein kinase in rice and Arabidopsis. Protein kinases are expressed a number of times.	
+Row 1500 (-0.56) C-terminal domain phosphatase-like 3 in Arabidopsis. NLI interacting factor-like phosphatase  Activated by cold temperature and ABA in Arabidopsis.
+ Row 1544 (3.88) Actin depolymerizing factor in maize, rice, and Arabidopsis. There is literature on this in maize.
+Row 1565 (-0.94) in maize, Ubiquitin-protein ligase isoform 1, Ubiquitin-protein ligase isoform 2, Ubiquitin-protein ligase isoform 3. F-box containing protein in rice. “At least 43 F-box protein-encoding genes have been found to be differentially expressed in rice seedlings subjected to different abiotic stress conditions. The expression of several F-box protein-encoding genes is also influenced by light.”
+Row 1580 (-2.09) Cysteine proteinase. Play essential roles in a variety of developmental and physiological processes.
+Row 2226 (-1.12) Dirigent protein in rice. Disease resistance.
+
+
+
+
+

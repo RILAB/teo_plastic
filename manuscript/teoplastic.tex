@@ -1,4 +1,5 @@
 \documentclass{article}
+\usepackage[margin=1in]{geometry}
 
 \usepackage{graphicx}
 \usepackage[space]{grffile}
@@ -10,17 +11,28 @@
 \usepackage{hyperref}
 \hypersetup{colorlinks=false,pdfborder={0 0 0},}
 
+\makeatletter
+\let\@fnsymbol\@arabic
+\makeatother
 
-
-\begin{document}
-
-\title{Double click to edit the title}
-
-\author{Jeffrey Ross-Ibarra\\ Affiliation not available  \and Anne Lorant\\ Affiliation not available \and Dolores Piperno\\ Affiliation not available}
+\title{Gene expression and the role of genetic asssimilation in maize domestication}
+\author{
+ \small\sfbf{Anne Lorant$^{\ast,}$\thanks{These authors contributed equally to the work}, Sarah Pederson$^{\dag,}$\thanks{These authors contributed equally to the work}, Dolores Piperno$^{\S}$, Matthew Hufford$^{\dag},$\thanks{
+Corresponding author:  Department of Ecology, Evolution, and Organismal Biology, Iowa State University, Ames, Iowa 50011, USA. 
+    E-mail: \mbox{mhufford@iastate.edu}}, and Jeffrey Ross-Ibarra$^{\ast,\ddag,}$}\thanks{
+Corresponding author:  Department of Plant Sciences, University of California, Davis, California 95616, USA. 
+    E-mail: \mbox{rossibarra@ucdavis.edu}}\\
+\\[0.3cm]
+   \small\sf $^{\ast}$Department of Plant Sciences, University of California, Davis, California 95616, USA,\\
+   \small\sf $^\dag$Department of Ecology, Evolution, and Organismal Biology, Iowa State University, Ames, Iowa 50011, USA,\\
+   \small\sf $^\S$Smithsonian Tropical Research Institute, Box 2072, Balboa, Panama,\\
+     \small\sf $^\ddag$Center for Population Biology and Genome Center, University of California, Davis, California 95616, USA\\
+}
 
 \date{\today}
 
 \bibliographystyle{plain}
+\begin{document}
 
 \maketitle 
 
@@ -85,6 +97,17 @@ Low quality (base quality <33) bases were trimmed using fastx toolkit v. 0.0.13 
 Expression analysis was performed using the EdgeR package \cite(Robinson2013).
 
 %more details needed here on EdgeR analysis once more concrete
+
+\subsection{GO terms}
+Methods:
+Identifying GO term outliers
+GO term analyses were performed on AgriGo \url{bioinfo.cau.edu.cn/agriGO/}.  Significant GO terms were selected for a p-value < 0.005, and further filtered for terms with a false discovery rate <0.005.  This left nothing in low c02 while everything in ambient c02.
+
+In order to understand the biological significance of the genes up or down regulated under low concentration of CO2, a gene ontology (GO) study was performed. 
+Since teosinte genes have not been well annotated, the Zea mays ssp. genome has been used to perform the analysis.
+A singular enrichment analysis (SEA) on Agrigo (website) has been performed to determine the enriched GO terms in the list of the genes identified on www.maizesequence.org .
+The sub-ambient condition produced a down regulation in transcripts associated with basic metabolic and synthetic pathways, with the strongest outliers being basal carbohydrate and nitrogen metabolism.  Even using the lenient false discovery rate (FDR) of 0.005, no GO term categories appear overexpressed under low CO2 conditions.  In contrast, examining the GO terms overexpressed in ambient conditions with the same FDR, many critical biosynthetic and metabolic pathways appear, suggesting an overall down regulation of transcripts for metabolism.  
+Our results are consistent with previously findings i.e. significant decrease in biomass and yield under low CO2 for C3 and C4 plants as a result of overall lower metabolism. 
 
 
 
